@@ -35,13 +35,13 @@ TasteFinder是一个现代化的美食推荐平台，集成高德地图API，提
 <div align="center">
 
 ### 登录界面
-![Login](docs/screenshots/login.png)
+![Login](docs/img/login.png)
 
 ### 地图主界面
-![Map](docs/screenshots/map.png)
+![Map](docs/img/map.png)
 
 ### 管理后台
-![Admin](docs/screenshots/admin.png)
+![Admin](docs/img/admin.png)
 
 </div>
 
