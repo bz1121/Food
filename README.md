@@ -60,19 +60,18 @@ TasteFinder是一个现代化的美食推荐平台，集成高德地图API，提
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/tastefinder.git
-cd tastefinder
+git clone https://github.com/bz1121/Food.git
+cd Food
 
 # 配置环境变量
-cp .env.example .env
-# 编辑.env文件，填入你的高德API密钥
+cp frontend/.env.example frontend/.env.development
+# 编辑 frontend/.env.development，填入你的高德API密钥
 
 # 一键启动所有服务
-./start.bat  # Windows
-./start.sh   # Linux/Mac
+start.bat  # Windows
 
 # 访问应用
-# http://localhost:5173
+http://localhost:5173
 ```
 
 详细说明见：[快速开始指南](specs/001-tastefinder-api/quickstart.md)
