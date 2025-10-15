@@ -9,7 +9,7 @@
 
 **基于地理位置的智能美食推荐系统**
 
-[在线演示](http://os8vc9406212.vicp.fun) · [快速开始](#快速开始) · [功能文档](specs/001-tastefinder-api/spec.md)
+[在线演示](http://14.103.168.111) · [快速开始](#快速开始) · [功能文档](specs/001-tastefinder-api/spec.md)
 
 </div>
 
