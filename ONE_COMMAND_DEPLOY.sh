@@ -47,6 +47,8 @@ apt install -y nodejs
 
 # 6. 克隆项目
 echo "[6/8] 克隆GitHub项目..."
+# 安装git
+sudo apt install git -y
 cd /opt
 rm -rf Food
 git clone https://github.com/bz1121/Food.git
