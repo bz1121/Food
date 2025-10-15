@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Test coverage
+coverage/
+.coverage
+*.cover
+.pytest_cache/
+
+# Temporary files
+*.tmp
+.tmp/
+temp/
+

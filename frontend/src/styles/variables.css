@@ -1,0 +1,62 @@
+/* TasteFinder 主题变量 */
+
+:root {
+  /* 主色调 */
+  --primary-color: #409EFF;
+  --primary-light: #79bbff;
+  --primary-dark: #337ecc;
+  
+  /* 成功色 */
+  --success-color: #67C23A;
+  
+  /* 警告色 */
+  --warning-color: #E6A23C;
+  
+  /* 危险色 */
+  --danger-color: #F56C6C;
+  
+  /* 信息色 */
+  --info-color: #909399;
+  
+  /* 文字颜色 */
+  --text-primary: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --text-placeholder: #C0C4CC;
+  
+  /* 边框颜色 */
+  --border-base: #DCDFE6;
+  --border-light: #E4E7ED;
+  --border-lighter: #EBEEF5;
+  --border-extra-light: #F2F6FC;
+  
+  /* 背景颜色 */
+  --background-base: #F5F7FA;
+  --background-overlay: rgba(0, 0, 0, 0.5);
+  
+  /* 间距 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* 圆角 */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* 阴影 */
+  --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  --box-shadow-base: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --box-shadow-dark: 0 4px 16px rgba(0, 0, 0, 0.15);
+  
+  /* 字体 */
+  --font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC', Arial, sans-serif;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+}
+

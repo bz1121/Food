@@ -1,0 +1,45 @@
+# 生产环境配置
+
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:tastefinder}?useSSL=true&serverTimezone=Asia/Shanghai
+    username: ${DB_USERNAME:tastefinder_user}
+    password: ${DB_PASSWORD}
+  
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+  
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+
+server:
+  port: ${SERVER_PORT:8080}
+
+# JWT配置（使用环境变量）
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:604800000}
+
+# 高德地图API（使用环境变量）
+amap:
+  key: ${AMAP_KEY}
+  secret: ${AMAP_SECRET}
+  base-url: https://restapi.amap.com/v3
+
+# 日志配置
+logging:
+  level:
+    com.tastefinder: INFO
+    org.springframework.web: WARN
+    org.hibernate: WARN
+  file:
+    name: /var/log/tastefinder/application.log
+    max-size: 100MB
+    max-history: 30
+
